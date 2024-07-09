@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+
+h1,h2{
+    font-family: 'Press Start 2P';
+}
+
+h1 {
+    transition: 1s ease;
+    font-size: 4vw;
+    text-align: center;
+    font-family: 'Press Start 2P';
+    color: white;
+    text-shadow: 0px 0px 60px grey;
+}
+
+
+.portal img {
+    transition: 1s ease;
+    height: auto;
+    width: 20%;
+}
+.portal a {
+    transition: 1s ease;
+    filter: brightness(20%);
+    -webkit-transition: filter .25s;
+}
+    .portal a:hover{
+        filter:brightness(100%);
+        -webkit-transition: filter .25s linear;
+    }
+
+    .portal h2 {
+        text-shadow: 0 0 15px darkgoldenrod;
+        transition: 1s ease;
+        font-size: 2.5vw;
+        color: gold;
+    }
+
+
+.container {
+    transition: 1s ease;
+    position: relative;
+    text-align: center;
+}
+    .container h4 {
+        font-size: 1vw;
+        line-height:1.75em;
+        font-weight:lighter;
+        font-family: 'Press Start 2P';
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+        color: white;
+    }
+
+@media screen and (max-width: 1000px){
+    h1 {
+        font-size:6vw;
+    }
+
+    .portal img {
+        height: 28%;
+        width: 28%;
+    }
+
+    .portal h2 {
+        margin-bottom: 0%;
+        font-size: 4vw;
+    }
+
+    .container h4 {
+        clear: both;
+        font-size: 1.8vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        margin-top:120px;
+        font-size: 6.5vw;
+    }
+
+    .portal img {
+        margin-top:30px;
+        width: 40%;
+    }
+
+    .portal h2 {
+        margin-bottom: 40px;
+        font-size: 5vw;
+    }
+
+    .container h4 {
+        font-size: 1.75vh;
+    }
+}
